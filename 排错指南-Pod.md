@@ -19,7 +19,7 @@ Pending 状态说明 Pod 还没有调度到某个 Node 上面。可以通过 `ku
     Events:
     Type     Reason            Age                From               Message
     ----     ------            ----               ----               -------
-    Warning  FailedScheduling  12s (x6 over 27s)  default-scheduler  0/4 nodes are available: 2 Insufficient cpu.
+    Warning  FailedScheduling  13s (x6 over 27s)  default-scheduler  0/4 nodes are available: 2 Insufficient cpu.
     ```
 
 可能的原因和解决方案：
